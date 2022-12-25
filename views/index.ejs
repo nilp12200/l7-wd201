@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" >
+
+    <title>Document</title>
+</head>
+<body>
+
+<%- include('header.ejs' )%>
+
+ <table id="my table">
+    <tr class="header">
+        <th style="width: 40%;">name of product</th>
+        <th style="width: 45%;">price</th>
+        <th style="width: 40%;">quantity</th>
+
+    </tr>
+    <tr>
+        <td style="width: 40%;">milk</td>
+        <td style="width: 45%;">60</td>
+        <td>1kg</td>
+    </tr>
+
+<tr>
+    <td style="width: 40%;">tea</td>
+    <td style="width: 45%;">50</td>
+    <td>1kg</td>
+</tr>
+<tr>
+<td style="width: 40%;">rice</td>
+<td style="width: 45%;">65</td>
+<td>1kg</td>
+</tr>
+</table>
+
+ 
+
+
+<%= include('footer.ejs') %>
+</body>
+</html> 
